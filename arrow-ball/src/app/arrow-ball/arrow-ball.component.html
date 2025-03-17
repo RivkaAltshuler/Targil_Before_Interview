@@ -1,0 +1,11 @@
+<div>
+  <div class="container">
+  <div class="ball" [style.left.px]="ballX" [style.top.px]="ballY"></div>
+  </div>
+  <div class="controls">
+    <button (click)="move('up')">↑</button><br>
+    <button (click)="move('left')">←</button>
+    <button (click)="move('right')">→</button><br>
+    <button (click)="move('down')">↓</button>
+  </div>
+</div>
